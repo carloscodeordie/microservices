@@ -13,6 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservices</name>
 	<description>Application to connect with Twitter</description>
+	<modules>
+		<module>twitter-service</module>
+	</modules>
 	<packaging>pom</packaging>
 	<url/>
 	<licenses>
@@ -31,6 +34,7 @@
 		<java.version>17</java.version>
 		<spring-boot.version>3.5.3</spring-boot.version>
 		<maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
+		<twitter4j.version>4.0.7</twitter4j.version>
 	</properties>
 
 	<dependencyManagement>
@@ -46,6 +50,11 @@
 				<version>${spring-boot.version}</version>
 				<scope>test</scope>
 			</dependency>
+			<dependency>
+				<groupId>org.twitter4j</groupId>
+				<artifactId>twitter4j-stream</artifactId>
+				<version>${twitter4j.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<build>
@@ -56,6 +65,7 @@
 				<version>${maven-compiler-plugin.version}</version>
 				<configuration>
 					<release>${java.version}</release>
+
 				</configuration>
 			</plugin>
 		</plugins>
