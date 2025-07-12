@@ -1,0 +1,15 @@
+2025-07-11 08:44:30 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservices.twitter.TwitterServiceApplicationTest]: TwitterServiceApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-11 08:44:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservices.twitter.TwitterServiceApplication for test class com.microservices.twitter.TwitterServiceApplicationTest
+2025-07-11 08:44:31 [main] INFO  c.m.t.TwitterServiceApplicationTest - Starting TwitterServiceApplicationTest using Java 21.0.7 with PID 32023 (started by luismaciasgonzalez in /Users/luismaciasgonzalez/Repos/microservices/twitter-service)
+2025-07-11 08:44:31 [main] INFO  c.m.t.TwitterServiceApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 08:44:31 [main] INFO  c.m.t.TwitterServiceApplicationTest - Started TwitterServiceApplicationTest in 0.344 seconds (process running for 0.895)
+2025-07-11 08:44:31 [main] INFO  c.m.t.TwitterServiceApplication - System starts...
+2025-07-11 15:44:23 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservices.twitter.TwitterServiceApplicationTest]: TwitterServiceApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-07-11 15:44:23 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservices.twitter.TwitterServiceApplication for test class com.microservices.twitter.TwitterServiceApplicationTest
+2025-07-11 15:44:24 [main] INFO  c.m.t.TwitterServiceApplicationTest - Starting TwitterServiceApplicationTest using Java 21.0.7 with PID 36497 (started by luismaciasgonzalez in /Users/luismaciasgonzalez/Repos/microservices/twitter-service)
+2025-07-11 15:44:24 [main] INFO  c.m.t.TwitterServiceApplicationTest - No active profile set, falling back to 1 default profile: "default"
+2025-07-11 15:44:24 [main] INFO  c.m.t.TwitterServiceApplicationTest - Started TwitterServiceApplicationTest in 0.328 seconds (process running for 0.791)
+2025-07-11 15:44:24 [main] INFO  c.m.t.TwitterServiceApplication - System starts...
+2025-07-11 15:44:24 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2025-07-11 15:44:24 [main] INFO  c.m.t.r.impl.TwitterStreamRunner - Starting twitter stream with keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2025-07-11 15:44:24 [SpringApplicationShutdownHook] INFO  c.m.t.r.impl.TwitterStreamRunner - Shutting down twitter stream

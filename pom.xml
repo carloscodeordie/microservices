@@ -35,6 +35,8 @@
 		<spring-boot.version>3.5.3</spring-boot.version>
 		<maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
 		<twitter4j.version>4.0.7</twitter4j.version>
+		<httpclient.version>4.5.13</httpclient.version>
+		<json.version>20220320</json.version>
 	</properties>
 
 	<dependencyManagement>
@@ -54,6 +56,16 @@
 				<groupId>org.twitter4j</groupId>
 				<artifactId>twitter4j-stream</artifactId>
 				<version>${twitter4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>${httpclient.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.json</groupId>
+				<artifactId>json</artifactId>
+				<version>${json.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
