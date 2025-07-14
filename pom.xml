@@ -15,7 +15,8 @@
 	<description>Application to connect with Twitter</description>
 	<modules>
 		<module>twitter-service</module>
-	</modules>
+        <module>app-config-data</module>
+    </modules>
 	<packaging>pom</packaging>
 	<url/>
 	<licenses>
