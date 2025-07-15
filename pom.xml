@@ -16,6 +16,7 @@
 	<modules>
 		<module>twitter-service</module>
         <module>app-config-data</module>
+        <module>kafka</module>
     </modules>
 	<packaging>pom</packaging>
 	<url/>
@@ -38,6 +39,7 @@
 		<twitter4j.version>4.0.7</twitter4j.version>
 		<httpclient.version>4.5.13</httpclient.version>
 		<json.version>20220320</json.version>
+		<avro.version>1.10.0</avro.version>
 	</properties>
 
 	<dependencyManagement>
@@ -68,6 +70,11 @@
 				<artifactId>json</artifactId>
 				<version>${json.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.apache.avro</groupId>
+				<artifactId>avro</artifactId>
+				<version>${avro.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<build>
@@ -78,7 +85,6 @@
 				<version>${maven-compiler-plugin.version}</version>
 				<configuration>
 					<release>${java.version}</release>
-
 				</configuration>
 			</plugin>
 		</plugins>
